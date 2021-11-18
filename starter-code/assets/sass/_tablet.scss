@@ -1,0 +1,102 @@
+/***************
+LAYOUT
+***************/
+body {
+  background-blend-mode: normal;
+  background-size: 61vh;
+  background-position: right top;
+  background-image: url("../tablet/image-host.jpg");
+  background-color: rgb(17, 20, 29);
+  padding: 5em;
+}
+
+
+.container {
+  width: 80%;
+  height: 100vh;
+  max-width: 768px;
+  margin-left: -3em;
+}
+
+.header {
+  padding: 0;
+  margin-top: -2em;
+  margin-left: 0em;
+  margin-bottom: 10.25em;
+}
+
+.header-logo {
+  margin: 0;
+}
+
+.main {
+  text-align: left;
+  width: 635px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 20, 29);
+  margin-top: 10em;
+  padding-top: 4em;
+}
+
+.main-title {
+  font-size: 3rem;
+}
+
+.main-text {
+  width: 445px;
+  font-size: 1.125rem;
+  margin-bottom: 2.5em;
+}
+
+.form {
+  width: 427px;
+  position: relative;
+}
+
+.form-email {
+  padding: 1em 3em 1.25em 3em;
+}
+
+.form-SubmitBtn {
+  width: 162px;
+  position: absolute;
+  top: 0px;
+  left: 260px;
+  top: 3.25px;
+}
+
+input[type=email] {
+  font-size: .875rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+input[type=submit] {
+  font-size: .875rem;
+  font-weight: 900;
+  display: block;
+  text-align: center;
+  padding: .90em;
+}
+
+.podcast {
+  order: 2;
+  width: 536px;
+  margin-top: .5em;
+}
+
+.podcast-list-item {
+  margin-left: 0;
+}
+
+footer {
+ width: 100%;
+ margin-top: 10em;
+ margin-left: 0em;
+}
+
+.footer-dots {
+  display: block;
+}

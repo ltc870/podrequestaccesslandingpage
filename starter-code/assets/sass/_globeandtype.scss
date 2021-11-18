@@ -1,0 +1,57 @@
+/***************
+GLOBAL STYLES
+***************/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #121725;
+  color: #ffffff;
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+/***************
+TYPOGRAPHY
+***************/
+
+.main-title {
+  font-size: 1.625rem;
+  text-transform: uppercase;
+}
+
+.main-title-accent {
+  color: #54e6af
+}
+
+.main-text {
+  font-size: .9375rem;
+  color: #c2cbe5;
+}
+
+input[type=email] {
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+input[type=submit] {
+  font-size: .875rem;
+  font-weight: 900;
+  display: block;
+}
+
+.form-error {
+  color: #fb3e3e;
+  font-weight: 900;
+  font-size: .75rem;
+}

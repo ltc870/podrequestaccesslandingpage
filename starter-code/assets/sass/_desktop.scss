@@ -1,0 +1,44 @@
+body {
+  background-image: url("../desktop/image-host.jpg");
+  background-size: 50%;
+  background-position-y: 13vh
+}
+
+.header {
+  margin-top: 3em;
+  margin-left: 35em;
+}
+
+.container {
+  width: 80%;
+  max-width: 1440px;
+}
+
+.main {
+  width: 723px;
+  padding-top: 0em;
+  margin-top: -5em;
+  margin-left: 36em;
+}
+
+.main-title {
+  font-size: 3.25rem;
+  padding-top: 1em;
+  margin-bottom: .5em;
+}
+
+.form {
+  margin-bottom: 2em;
+}
+
+footer {
+  margin-top: -6.25em;
+  width: 98vw;
+  position: relative;
+}
+
+.footer-dots {
+  position: absolute;
+  right: -6px;
+  top: -8px;
+}
